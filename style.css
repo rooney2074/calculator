@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+.calc{
+   width: 560px;
+   height: 650px;
+    background-color: rgba(27, 27, 32, 0.708);
+    margin: auto;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: rgba(205, 194, 194, 0.877) ;
+
+
+
+}
+P{
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#screen{
+    background-color: rgba(231, 231, 240, 0.868);
+    height: 60px;
+    width: 500px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: right;
+    box-shadow: 3px 3px 0px violet;
+
+
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.571);
+    color: rgba(255, 250, 240, 0.922);
+    width: 70px;
+    height: 70px;
+    font-size:30px;
+    margin: 30px;
+    border: none;
+}
+.clear{
+    background-color: red;
+}
+.operator{
+    background-color: rgb(132,132,130);
+}
+.button:hover{
+    transition: 0.5s;
+    background-color: rgb(145, 225, 232);
+}
+body{
+    background: url('https://wallpaperaccess.com/full/145122.jpg');
+    background-size: cover;
+}
